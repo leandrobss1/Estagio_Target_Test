@@ -1,3 +1,5 @@
+// Criando função de fibonnaci
+
 function isFibonacci(num) {
 	let a = 0,
 		b = 1,
@@ -11,6 +13,8 @@ function isFibonacci(num) {
 }
 
 let number = 21;
+
+// Criando uma condicional para mostrar o resultado da fibo
 
 if (isFibonacci(number)) {
 	console.log(`${number} pertence à sequência de Fibonacci.`);

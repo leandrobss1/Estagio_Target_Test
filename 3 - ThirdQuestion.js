@@ -1,3 +1,5 @@
+// Criação de objeto e função
+
 const billingMonthly = [
 	{ dia: 1, valor: 35987.1999 },
 	{ dia: 2, valor: 31451.6295 },
@@ -23,6 +25,8 @@ function calculateBilling(invoicing) {
 
 	return { min, max, daysAboveAverage };
 }
+
+// Mostrando o resultado solicitado
 
 const resultado = calculateBilling(billingMonthly);
 console.log(`Menor valor: ${resultado.min}`);
